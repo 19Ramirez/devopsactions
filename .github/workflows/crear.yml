@@ -36,7 +36,7 @@ jobs:
 
     - name: construir la imagen de docker
       run: |
-        docker build -t ghcr.io/19Ramirez/hello-francisco:1.0.0 .
+        docker build -t ghcr.io/19ramirez/hello-francisco:1.0.0 .
 
     - name: Login en GitHub Container Registry
       run: |
@@ -44,4 +44,4 @@ jobs:
 
     - name: publicar la imagen
       run: |
-        docker push ghcr.io/19Ramirez/hello-francisco:1.0.0
+        docker push ghcr.io/19ramirez/hello-francisco:1.0.0
